@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vue Async Tree</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <style>
+    body {
+      font-family: Menlo, Consolas, monospace;
+    }
+    .item {
+      cursor: pointer;
+    }
+    ul {
+      padding-left: 1em;
+      line-height: 1.5em;
+    }
+    </style>
+  </head>
+  <body>
+    <ul id="app">
+      <m-tree :model="treeData"></m-tree>
+    </ul>
+    <script src="js/m-tree.js"></script>
+  </body>
+</html>
