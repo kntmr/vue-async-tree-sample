@@ -1,6 +1,6 @@
-# vue-async-tree-sample
+# vue-dynamic-tree-sample
 
-Vue.js async tree component. Customized the [example](https://jp.vuejs.org/v2/examples/tree-view.html).
+Vue.js dynamic tree component, customized the [example](https://jp.vuejs.org/v2/examples/tree-view.html).
 
 ## Use sample data
 
