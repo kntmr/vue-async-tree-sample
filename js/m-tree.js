@@ -22,7 +22,7 @@ Vue.component('m-tree', {
     toggle: function (id, event) {
       const target = event.target
       if (target.getAttribute('m-loaded') === 'false') {
-        axios.get('http://localhost:3000/children/' + id).then(resp => {
+        axios.get('http://localhost:3000/tree/' + id).then(resp => {
           for (let item of resp.data.children) {
             this.model.children.push({
               id: item.id,
